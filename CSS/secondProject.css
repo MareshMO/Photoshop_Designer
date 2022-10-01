@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "work Sans", sans-serif;
+    font-family: 'Cairo', sans-serif;
     direction: rtl;
 }
 
@@ -614,15 +615,22 @@ main ul li.active {
     border-style: solid;
     border-color: black;
 }
+@media screen and (max-width: 992px){
+    .about .container .box1 {
+        background-image: url(../images/about2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 .about .container .box2 {
     overflow: auto;
     position: absolute;
     bottom: 0;
-    left: 5%;
-    width: 30%;
+    left: 0px;
+    width: 35%;
     height: 250px;
-    background-color: var(--main-color);
+    background-color: rgb(28, 132, 202, .8);
     border-width: 30px 10px 0 10px;
     border-style: solid;
     border-color: black;
@@ -630,24 +638,24 @@ main ul li.active {
     padding: 20px 20px;
 }
 .about .container .box2 li {
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 3px;
+    font-size: 17px;
     font-weight: 600;
 }
 
 .about .container .box3 {
     overflow: auto;
     position: absolute;
-    right: 50px;
+    right: 0px;
     bottom: 0;
-    width: 30%;
+    width: 35%;
     height: 250px;
-    background-color: var(--main-color);
+    background-color: rgb(28, 132, 202, .8);
     border-width: 30px 10px 0 10px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 2;
     font-weight: 600;
     padding: 10px;
